@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Curriculum Vitae</title>
+    <style>
+        /* Stile generale */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f4fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #6a0dad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #ff6600;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1em;
+            margin: 5px 0 0;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: #6a0dad;
+            font-size: 1.6em;
+            margin-top: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li:before {
+            content: "";
+            margin-right: 8px;
+        }
+
+        .about ul li:before {
+            content: "🌟";
+        }
+
+        .experience ul li:before {
+            content: "";
+        }
+
+        .skills ul li:before {
+            content: "";
+        }
+
+        .education ul li:before {
+            content: "📘";
+        }
+
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #6a0dad;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 10px 5px 0;
+        }
+
+        .btn:hover {
+            background-color: #551a8b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #f1f1f1;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Ottimizzazioni per dispositivi mobili */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+
+            section {
+                padding: 15px;
+                margin: 15px 10px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            .btn {
+                font-size: 0.9em;
+                padding: 10px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            header p {
+                font-size: 0.8em;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .btn {
+                font-size: 0.8em;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🎓 Davide Spatola</h1>
+        <p>💻 Computer Scientist | 📞 Contattami | 🌍 LinkedIn</p>
+    </header>
+    <section class="about">
+        <h2>👋 Chi Sono</h2>
+        <p>Benvenuto/a! Sono un <strong>Computer Scientist</strong> appassionato di Informatica, design ed intelligenza artificiale.</p>
+    </section>
+    <section class="experience">
+        <h2>📂 Esperienze Professionali</h2>
+        <ul>
+            <li><strong>Mobile App Developer</strong> presso <em>Università del Piemonte Orientale</em> - 2023-2024</li>
+            <li><strong>Full Stack Web App Developer</strong> <em>free lance</em> - 2021-2023</li>
+            <li><strong>Founder and Developer</strong> <em>Rigelware</em> 2024</li>
+            <li><a href="https://20033417.github.io/presentazione/service.html">Progetti</a></li>
+        </ul>
+    </section>
+    <section class="skills">
+        <h2>🛠️ Competenze</h2>
+        <ul>
+            <li>Java, Python, Swift, Kotlin, C, JavaScript, SQL, NoSQL, HTML, CSS</li>
+            <li>React, Node.js, MongoDB, SQLite, PostgreSQL, Google Cloud Firebase</li>
+            <li>AI Tools: Weka</li>
+        </ul>
+    </section>
+    <section class="education">
+        <h2>🎓 Formazione</h2>
+        <ul>
+            <li><strong>Laurea in Informatica</strong>, Università degli Studi del Piemonte Orientale - 2024</li>
+            <li><strong>Diploma di liceo Scientifico</strong>, G. Curcio - 2019</li>
+            <li><strong>1° Workshop Internazionale edu4ai</strong>, Università degli Studi di Torino - 2024 <a href="https://edu4ai.di.unito.it">Workshop</a></li>
+        </ul>
+    </section>
+    <section class="contact">
+        <h2>📧 Contatti</h2>
+        <a href="mailto:davide.spatola000@gmail.com" class="btn">Email Me</a>
+        <a href="https://www.linkedin.com/in/davide-spatola-169524204/" class="btn">LinkedIn</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Davide Spatola</p>
+    </footer>
+</body>
+</html>
